@@ -38,7 +38,7 @@ export default function Animation() {
         <div className='text-center text-xl md:text-4xl pb-5'>Go! Get it</div>
 
         <div className='md:text-xl text-sm italic'>
-          "Go! Get it" is a short film that me and my crew created in three months, it"aposs a story about how the protagonist had met her physical disability puppy, and how they grow up together.
+          Go! Get it is a short film that me and my crew created in three months, it"aposs a story about how the protagonist had met her physical disability puppy, and how they grow up together.
         </div>
 
       </div>
@@ -49,7 +49,7 @@ export default function Animation() {
         <div ref={img} className='text-center text-xl md:text-4xl pb-5'>Under the black hole</div>
 
         <div className='md:text-xl text-sm italic'>
-          "Under the black hole" is an graduation film about how a black hole suddenly appeared upon the city, however, experts believed that in order to remove the black hole, they need to eliminate all the circles first.
+          Under the black hole is an graduation film about how a black hole suddenly appeared upon the city, however, experts believed that in order to remove the black hole, they need to eliminate all the circles first.
           <br/>
           The protagonist is one of the workers dispatched by his superior, but he hide his music CD as his entertainment.
           <br/>
