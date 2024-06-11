@@ -38,7 +38,7 @@ export default function Animation() {
         <div className='text-center text-xl md:text-4xl pb-5'>Go! Get it</div>
 
         <div className='md:text-xl text-sm italic'>
-          Go! Get it is a short film that me and my crew created in three months, it"aposs a story about how the protagonist had met her physical disability puppy, and how they grow up together.
+          Go! Get it is a short film that me and my crew created in three months, it aposs a story about how the protagonist had met her physical disability puppy, and how they grow up together.
         </div>
 
       </div>
