@@ -3,12 +3,12 @@ import {useState} from 'react'
 export default function Header() {
   const [curPage,setCurPage] = useState('home')
   const [open,setOpen] = useState(false)
-  console.log(curPage);
+
   return (
     <div className="">
       <nav className="z-10 fixed inset-x-0 top-0 hidden md:flex place-items-center place-content-between px-5 pt-5">
         <div>LOGO</div>
-        <div className='space-x-10 flex'>
+        <div className='space-x-24 flex'>
         {
           ["Home", "Portfolio", "About"].map((item,i)=><div key={i}><Link href={`/${item=='Home'?'':item.toLowerCase()}`}><div onClick={()=>setCurPage(item)} className={`${curPage==item?'text-yellow-400':''}`}>{item}</div></Link></div>)
         }

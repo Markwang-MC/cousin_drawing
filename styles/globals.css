@@ -43,3 +43,8 @@
 .text_shadow {
   text-shadow: 0 0 2px black, 0 0 2px black;
 }
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 3s;
+}
